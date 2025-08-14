@@ -1,4 +1,6 @@
+import { Footer } from "./components/Footer";
 import { Header } from "./components/header";
+import { ArticlesSection } from "./components/Article";
 import { MainContent } from "./components/Maincontent.JSX";
 
 function App() {
@@ -6,6 +8,8 @@ function App() {
     <div className="min-h-screen bg-gray-50">
       <Header />
       <MainContent />
+      <ArticlesSection />
+      <Footer />
     </div>
   );
 }
